@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="64" tileheight="64" infinite="0" nextobjectid="24">
+ <tileset firstgid="1" source="towerDefense_tilesheet3.tsx"/>
+ <layer name="Background" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyTZGBgkBzFo3gUDxgGANFiFfo=
+  </data>
+ </layer>
+ <layer name="Path" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYECAl0D8nIE8MKqXNL3/gPg/DnwFj95XQHwRB75EoZtG9Q6MXgDVTSfP
+  </data>
+ </layer>
+ <layer name="TowerSlotMarkers" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcbMPBHgkAn38HU1gMFXcOdkCLtA4AZCoFsQ==
+  </data>
+ </layer>
+ <objectgroup name="Navigation">
+  <object id="1" name="NavLine1" x="256" y="0">
+   <polyline points="0,0 0,384 64,448 384,448 448,512 448,960"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Navigation2">
+  <object id="23" x="254" y="4">
+   <polyline points="0,0 2,378 9,393 22,405 37,412 61,416 88,422 125,428 191,441 298,452 346,455 370,460 382,464 392,471 410,489 418,502 429,521 446,551 449,948"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="TowerSlots">
+  <object id="14" name="TowerSlot1" type="TowerSlot" x="128" y="64" width="64" height="64"/>
+  <object id="16" name="TowerSlot2" type="TowerSlot" x="320" y="64" width="64" height="64"/>
+  <object id="17" name="TowerSlot3" type="TowerSlot" x="128" y="512" width="64" height="64"/>
+  <object id="18" name="TowerSlot4" type="TowerSlot" x="320" y="320" width="64" height="64"/>
+  <object id="19" name="TowerSlot6" type="TowerSlot" x="768" y="320" width="64" height="64"/>
+  <object id="20" name="TowerSlot5" type="TowerSlot" x="576" y="512" width="64" height="64"/>
+  <object id="21" name="TowerSlot7" type="TowerSlot" x="576" y="832" width="64" height="64"/>
+  <object id="22" name="TowerSlot8" type="TowerSlot" x="768" y="832" width="64" height="64"/>
+ </objectgroup>
+</map>

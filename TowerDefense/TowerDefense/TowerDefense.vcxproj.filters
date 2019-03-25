@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\tmxlite">
+      <UniqueIdentifier>{380cfbd8-ead3-48f3-866e-4e5eb6ea0367}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\FreeFuncs.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\ImageLayer.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\Map.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\miniz.c">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\Object.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\ObjectGroup.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\Property.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\detail\pugixml.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\TileLayer.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="tmxlite\Tileset.cpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvalidXmlException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\detail\Android.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Config.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\FreeFuncs.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\ImageLayer.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Layer.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\detail\Log.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Map.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\miniz.h">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Object.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\ObjectGroup.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Property.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\detail\pugiconfig.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\detail\pugixml.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Tileset.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\Types.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLOrthogonalLayer.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tmxlite\TileLayer.hpp">
+      <Filter>Resource Files\tmxlite</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Category.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidXmlException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tmxlite\CMakeLists.txt">
+      <Filter>Resource Files\tmxlite</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tmxlite\Types.inl">
+      <Filter>Resource Files\tmxlite</Filter>
+    </None>
+    <None Include="ClassDiagram16.cd" />
+  </ItemGroup>
+</Project>

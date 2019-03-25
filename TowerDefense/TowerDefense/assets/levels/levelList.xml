@@ -1,0 +1,3 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+	<Level name="Level 1" fileName="assets/levels/level1.xml" />
+	<Level name="Level 2" fileName="assets/levels/level2.xml" />

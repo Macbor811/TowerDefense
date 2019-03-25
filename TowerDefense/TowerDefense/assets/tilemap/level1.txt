@@ -1,0 +1,17 @@
+Level 1
+Wave
+Interval 1
+
+Soldier 10 1
+Supersoldier 2 1
+
+endWave
+
+Wave
+Interval 1
+
+Supersoldier 3 1
+Tank 2 1
+
+endWave
+endLevel

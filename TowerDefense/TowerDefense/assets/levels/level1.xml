@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+	<Leel id="1" tmxPath="assets/tilemap/TD_tilest.tmx">
+		<Wave interval="1">
+			<Enemy type="Soldier" count="5" pathId="1"/>             
+		</Wave>
+
+      	 	<Wave interval="1">
+			<Enemy type="Supersoldier" count="3" pathId="1"/>             
+		</Wave>
+	
+		<Wave interval="1">
+               		<Enemy type="Supersoldier" count="3" pathId="1"/> 
+			<Enemy type="Tank" count="2" pathId="1"/>             
+        	</Wave>
+	
+	</Level>
